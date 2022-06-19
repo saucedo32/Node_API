@@ -1,0 +1,6 @@
+# directorios a ignorar
+node_modules/
+# no sube los moldulos ya que son pesados y los instala cada vez que se ejecuta node
+
+# No es buena práctica compartir archivos de configuración en el repositorio de GitHub
+.env
